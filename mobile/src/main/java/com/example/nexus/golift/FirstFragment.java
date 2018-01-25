@@ -15,11 +15,9 @@ import android.view.ViewGroup;
 public class FirstFragment extends Fragment {
 
     @Override
-    public View onViewCreated(LayoutInflater inflater, ViewGroup container,
-                              Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.example_fragment, container, false);
-
-
+        return inflater.inflate(R.layout.calendar, container, false);
     }
 }

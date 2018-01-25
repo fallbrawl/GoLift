@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment = null;
         Class fragmentClass;
         switch(menuItem.getItemId()) {
-            case R.id.nav_first_fragment:
+            case R.id.calendar:
                 fragmentClass = FirstFragment.class;
                 break;
             case R.id.nav_second_fragment:
